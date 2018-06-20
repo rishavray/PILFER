@@ -1,0 +1,30 @@
+-----------------------------
+Required tools
+-----------------------------
+
+You need the following in your path
+
+cutadapt
+bowtie1
+samtools
+bedtools
+
+Additionally Python 2.7 should also be present.
+
+---------------------
+Setting variables
+---------------------
+
+Add the prefix of your fastq files in the script pipeline.sh
+If your files are SRR1273998.fastq, SRR1273999.fastq, SRR1274000.fastq  then add the following in the list variable
+
+list=(SRR1273998 SRR1273999 SRR1274000 )
+
+Include the number of samples, in this case 3
+
+num_sample=3
+
+Set the adapater sequence in the cutadapt command according to your samples
+Set the indexes of the genome and the piRNA sequences. The pirna sequence indexes for human are provided along with the retro transposon sequences. You need to generate the fasta file in order to do the transposon profiling.
+
+Everything was tested in a Linux environment.
