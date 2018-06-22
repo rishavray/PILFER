@@ -55,6 +55,7 @@ python pilfer.py -i sample_input.bed > output.txt
 ## Authors
 
 * **Rishav Ray** - *Initial work* - [Github](https://github.com/rishavray) rishav.rray@gmail.com
+With contribution of the mouse dataset and the pipeline from Giovanni Pascarella, Division of Genomic Medicine, RIKEN IMS, Japan. giovanni.pascarella@riken.jp
 
 ## Citation
 Ray, Rishav, and Priyanka Pandey. "piRNA analysis framework from small RNA-Seq data by a novel cluster prediction tool-PILFER." Genomics (2017).
